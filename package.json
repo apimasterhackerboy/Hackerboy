@@ -1,0 +1,12 @@
+{
+  "name": "telegram-channel-info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
