@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/channelInfo.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/channelInfo",
+      "dest": "/api/channelInfo.js"
+    }
+  ]
+}
